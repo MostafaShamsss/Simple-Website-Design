@@ -1,0 +1,135 @@
+
+
+
+body
+{
+	background-color:#404040;
+}
+
+H1
+{
+	clear:left;
+	color: #c33c3c;
+	text-align:center;
+	padding-top:20px;
+	font-size:200%;
+}
+
+H3
+{
+	clear:left;
+	font-size:150%;
+	color:lightpink;
+	padding-left: 15px;
+	padding-bottom: 8px;
+}
+
+H4
+{
+	padding-top: 5px;
+}
+
+.pink
+{
+	color:lightpink;
+}
+
+.goldishPink
+{
+	color:#c33c3c;
+}
+
+img
+{
+	animation-duration:10s;
+	animation-name:imgAnimation;
+	animation-iteration-count: infinite;
+	position:relative;
+	float:left;
+	width: 600px;
+	height: 300px;
+}
+@keyframes imgAnimation
+{
+	0%   {left:365px; top:0px;}
+	25%  {left:700px; top:0px;}
+	50%  {left:365px; top:0px;}
+	75%  {left:0px; top:0px;}
+	100% {left:365px; top:0px;}
+}
+}
+img.middle
+{   
+	padding-bottom:45px;
+	padding-left: 365px;
+}
+
+blockquote
+{
+	color:lightpink;
+	clear:left;
+}
+
+td
+{
+	font-size:120%;
+	padding:10px;
+	border:none;
+}
+
+/*td: nth-child(even)
+{
+	color: #c33c3c;
+}
+
+td: nth-child(odd)
+{
+	color: lightpink;
+}*/
+
+a
+{
+	color:lightpink;
+}
+
+a.noUnderline
+{
+	text-decoration:none;
+}
+
+button
+{
+	border:none;
+	background-color:lightpink;
+	color:#c33c3c;
+	font-size: 15px;
+}
+
+div.blockquote
+{
+	padding-right: 40px;
+	font-size: 25px;
+	margin: 15px;
+}
+#uniqueStrong
+{
+	font-size:30px;
+}
+
+table
+{
+	font-size: 17px;
+	border=1;
+	border:solid; 
+}
+
+div.table
+{
+	padding: 10px;
+}
+
+div.address
+{
+	padding-top: 10px;
+	font-size: 17px;
+}
